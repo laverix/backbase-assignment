@@ -19,7 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "reset.css",
+        "styles.css",
+        "simplegrid.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
