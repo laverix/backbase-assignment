@@ -8,7 +8,9 @@ import {Component, Input, OnInit} from '@angular/core';
 export class OverviewComponent implements OnInit {
   @Input() cities;
 
-  constructor() { }
+  constructor() {
+  }
 
-  ngOnInit() {  }
+  ngOnInit() {
+  }
 }

@@ -1,16 +1,16 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { GreetingsComponent } from './greetings/greetings.component';
+import {AppComponent} from './app.component';
+import {GreetingsComponent} from './greetings/greetings.component';
 import {AppRoutingModule} from './app-routing.module';
-import { WeatherComponent } from './weather/weather.component';
+import {WeatherComponent} from './weather/weather.component';
 import {WeatherService} from './weather.service';
 import {HttpModule} from '@angular/http';
-import { KeysPipe } from './keys.pipe';
-import { OverviewComponent } from './overview/overview.component';
-import { ForecastComponent } from './forecast/forecast.component';
-import { DetailsComponent } from './details/details.component';
+import {KeysPipe} from './keys.pipe';
+import {OverviewComponent} from './overview/overview.component';
+import {ForecastComponent} from './forecast/forecast.component';
+import {DetailsComponent} from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -32,4 +32,5 @@ import { DetailsComponent } from './details/details.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

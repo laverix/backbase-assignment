@@ -8,7 +8,8 @@ import {Component, Input, OnInit} from '@angular/core';
 export class ForecastComponent implements OnInit {
   @Input() cities;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
 

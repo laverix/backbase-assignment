@@ -31,7 +31,8 @@ export class WeatherComponent implements OnInit {
     }
   };
 
-  constructor(private weatherService: WeatherService) { }
+  constructor(private weatherService: WeatherService) {
+  }
 
   private loadCurrentWeatherData(cities) {
     for (const city in cities) {

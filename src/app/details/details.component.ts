@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {WeatherService} from '../weather.service';
 
@@ -11,7 +11,8 @@ export class DetailsComponent implements OnInit {
   id: string;
   weather;
 
-  constructor(private route: ActivatedRoute, private weatherService: WeatherService, private router: Router) { }
+  constructor(private route: ActivatedRoute, private weatherService: WeatherService, private router: Router) {
+  }
 
   private getHourlyForecastByCity(id) {
     this.weatherService.getHourlyForecastByCity(id).subscribe(response => this.weather = response);
