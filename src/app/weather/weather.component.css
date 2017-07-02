@@ -1,0 +1,18 @@
+.waves {
+  bottom: 35%;
+  -webkit-animation: move-waves 2s;
+}
+
+@-webkit-keyframes move-waves {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 35%;
+  }
+}
+
+
+
+
+

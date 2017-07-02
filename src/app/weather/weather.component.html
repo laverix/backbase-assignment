@@ -1,0 +1,13 @@
+<div class="grid grid-pad big-bottom-margin">
+  <div class="col-1-1">
+    <div class="content center">
+      {{ currentDate | date: 'fullDate' }}
+    </div>
+  </div>
+</div>
+
+<app-overview [cities]="cities"></app-overview>
+<app-forecast [cities]="cities"></app-forecast>
+
+<div class="background"></div>
+<div class="waves"></div>
