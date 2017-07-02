@@ -4,7 +4,7 @@
       <h3 class="pointer" [routerLink]="['/details', city]">{{ city }}</h3>
       <p>
         <img class="flag"
-             src="https://www.geonames.org/flags/x/{{ cities[city]?.now?.sys?.country?.toLowerCase() }}.gif"/>
+             src="http://www.geonames.org/flags/x/{{ cities[city]?.now?.sys?.country?.toLowerCase() }}.gif"/>
         {{ cities[city]?.now?.sys?.country }}
       </p>
       <hr>
