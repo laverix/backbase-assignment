@@ -4,13 +4,13 @@
       <h3 class="pointer" [routerLink]="['/details', city]">{{ city }}</h3>
       <p>
         <img class="flag"
-             src="http://www.geonames.org/flags/x/{{ cities[city]?.now?.sys?.country?.toLowerCase() }}.gif"/>
+             src="https://www.geonames.org/flags/x/{{ cities[city]?.now?.sys?.country?.toLowerCase() }}.gif"/>
         {{ cities[city]?.now?.sys?.country }}
       </p>
       <hr>
       <div class="weather-overview" *ngIf="cities[city]?.now?.weather">
         <p>
-          <img src="http://openweathermap.org/img/w/{{ cities[city]?.now?.weather[0]?.icon }}.png" alt="">
+          <img src="https://openweathermap.org/img/w/{{ cities[city]?.now?.weather[0]?.icon }}.png" alt="">
         </p>
         <p>
           {{ cities[city]?.now?.weather[0].main }}

@@ -2,7 +2,7 @@
   <div class="col-1-1">
     <div class="content center">
       <span class="go-back pointer" (click)="goBack()"></span>
-      <img class="flag" src="http://www.geonames.org/flags/x/{{ weather?.city?.country?.toLowerCase() }}.gif"/>
+      <img class="flag" src="https://www.geonames.org/flags/x/{{ weather?.city?.country?.toLowerCase() }}.gif"/>
       <h3>{{ weather?.city?.name }}</h3>
     </div>
   </div>
@@ -22,7 +22,7 @@
     </div>
     <div class="col-1-4">
       <div class="content">
-        <img class="weather-icon" src="http://openweathermap.org/img/w/{{ item?.weather[0]?.icon }}.png" alt="">
+        <img class="weather-icon" src="https://openweathermap.org/img/w/{{ item?.weather[0]?.icon }}.png" alt="">
         {{ item?.weather[0].main }}
       </div>
     </div>
