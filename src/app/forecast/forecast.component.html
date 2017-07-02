@@ -1,0 +1,31 @@
+<div class="forecast">
+  <div class="grid grid-pad appearing">
+    <div class="col-1-5" *ngFor="let city of cities | keys">
+      <div class="content">
+        <ul class="weather-timeline">
+          <li *ngFor="let item of cities[city].forecast.list">
+            <div class="circle-border">
+              <div class="inner-circle"></div>
+            </div>
+            <p class="day-title">
+              {{ item.dt * 1000 | date: 'EEEE' }}
+            </p>
+            <br clear="all">
+            <div class="weather-data">
+              <p>
+                <img class="weather-icon" src="http://openweathermap.org/img/w/{{ item?.weather[0]?.icon }}.png" alt="">
+                <strong>{{ item?.weather[0].main }}</strong>
+              </p>
+              <p>
+                Day: {{ item?.temp?.day }} °C
+              </p>
+              <p>
+                Night: {{ item?.temp?.night }} °C
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
