@@ -1,0 +1,10 @@
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url('../../assets/img/logo.png') center;
+  height: 361px;
+  width: 504px;
+  margin-top: -180px;
+  margin-left: -252px;
+}
