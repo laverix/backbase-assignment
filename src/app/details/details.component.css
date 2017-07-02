@@ -1,0 +1,27 @@
+.flag {
+  height: 44px;
+  width: auto;
+  float: right;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  height: 14px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.table {
+  height: 600px;
+  overflow: auto;
+}
+
+.go-back {
+  background: url('../../assets/img/go-back.png');
+  width: 44px;
+  height: 44px;
+  float: left;
+}
